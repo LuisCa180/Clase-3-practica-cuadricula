@@ -1,0 +1,15 @@
+.grid{
+    display:grid;
+    grid-template-columns: repeat(7, 80px);
+    gap:0;
+}
+
+.grid div{
+    width:80px;
+    height:80px;
+    background:white;
+}
+
+.negro{
+    background:black !important;
+}
